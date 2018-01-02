@@ -1,0 +1,40 @@
+.title {
+  text-align: center;
+
+  .title__heading {
+    @extend %section-title;
+    margin:0;
+  }
+
+  .title__desc {
+    color: #999999;
+    font-size: 18px;
+    margin: 0;
+  }
+}
+
+.box-icon {
+  display: flex;
+
+  .box-icon__symbol {
+    margin-right: 20px;
+    font-size: 50px;
+  }
+
+  .box-icon__title {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .box-icon__desc {
+    color: #aeaeae;
+    line-height: calc(30/16);
+    font-weight: normal;
+  }
+}
+
+
+
+.box-icon--style02 {
+  display: block;
+}
