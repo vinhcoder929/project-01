@@ -1,5 +1,7 @@
 // bower:scss
 // endbower
+@import "modules/all";
+@import "partials/base";
 @import "vendors/bootstrap/bootstrap";
 
 
@@ -31,9 +33,27 @@ body {
   }
 }
 
+.box-icon__title {
+  @extend %module-title;
+}
+
 .box-icon__title,
 .box-icon__desc {
   @include media-breakpoint-up(sm){
     margin-left: 70px;
   }
+}
+
+.section__title,
+.download__title{
+  @extend %section-title;
+  color: #648cff;
+  margin: 0;
+}
+
+.section__shortdesc,
+.dowload__desc {
+  @extend %desc;
+  color: #999999;
+  font-size: 18px;
 }
