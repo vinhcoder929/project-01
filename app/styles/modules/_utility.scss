@@ -1,3 +1,5 @@
+@import "vendors/bootstrap/bootstrap";
+
 .title {
   text-align: center;
 
@@ -8,8 +10,21 @@
 
   .title__desc {
     color: #999999;
-    font-size: 18px;
+    font-size: 1.125rem;
     margin: 0;
+  }
+}
+
+.main-content {
+  .main-content__title {
+    color: $white;
+    font-size: 3.75rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .main-content__desc {
+    color: $white;
   }
 }
 
@@ -28,7 +43,6 @@
 
   .box-icon__desc {
     color: #aeaeae;
-    line-height: calc(30/16);
     font-weight: normal;
   }
 }

@@ -1,7 +1,11 @@
 // bower:scss
 // endbower
-@import "modules/all";
-@import "partials/base";
+@import "modules/colors";
+@import "modules/utility";
+
+@import "partials/button";
+@import "partials/typography";
+
 @import "vendors/bootstrap/bootstrap";
 
 
