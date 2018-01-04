@@ -28,6 +28,12 @@
   }
 }
 
+.main-btn {
+  .btn:first-child {
+    margin-right: 15px;
+  }
+}
+
 .box-icon {
   display: flex;
 
