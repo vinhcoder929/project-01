@@ -5,6 +5,7 @@
 root = true
 
 
+
 [*]
 
 # change these settings to your own preference
@@ -23,3 +24,5 @@ trim_trailing_whitespace = false
 [{package,bower}.json]
 indent_style = space
 indent_size = 2
+
+

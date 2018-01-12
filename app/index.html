@@ -1,69 +1,77 @@
 <!doctype html>
 <html class="no-js" lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>generator webapp</title>
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>generator webapp</title>
 
-    <!-- build:css styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- endbower -->
-    <!-- endbuild -->
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
 
-    <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- endbower -->
+  <!-- endbuild -->
 
-
-     <!-- font awesome -->
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-     <!-- gooogle ubuntu font -->
-     <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
 
 
-    <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="/bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
-  </head>
-  <body>
-    <!--[if IE]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    <header class="header">
-      <div class="container">
-        <div class="row">
-            <div class="logo">
-              <i class="fa fa-sun-o" aria-hidden="true"></i>
-            </div>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-            <nav class="main-nav">
-              <a href="#">home</a>
-              <a href="#">features</a>
-              <a href="#">reviews</a>
-              <a href="#">download</a>
+  <!--slick css-->
+  <link rel="stylesheet" href="/bower_components/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="/bower_components/slick-carousel/slick/slick-theme.css">
+
+  <!-- gooogle ubuntu font -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
+
+
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
+
+<body>
+  <!--[if IE]>
+	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+  <section class="header">
+    <div class="container">
+        <div class="main-menu">
+            <a href="#" class="main-menu__logo" role="logo">
+              fun weather
+            </a>
+
+            <a href= "#" class="main-menu__toggle">
+              <i class="fa fa-bars" ></i>
+            </a>
+
+            <nav class="main-menu__nav">
+              <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">features </a></li>
+                <li><a href="#">reviews</a></li>
+                <li><a href="#">download</a></li>
+              </ul>
             </nav>
 
-            <nav class="social">
-              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            </nav>
-        </div>
-      </div>
-    </header>
+
+          </div>
+
+      <div class="row">
 
 
-    <section class="hero">
-      <div class="container">
-        <div class="row">
+
+        <div class="hero">
           <div class="col-lg-6">
             <div class="main-content">
               <h3 class="main-content__title">
-                get the most fun weather app
+                Get the most fun weather app
               </h3>
 
               <p class="main-content__desc">
@@ -71,345 +79,367 @@
               </p>
             </div>
 
-            <div class="main-btn">
-              <a href="" class="btn btn-download mr-3">download</a>
-              <a href="#" class="btn btn-primary">features</a>
-            </div>
+
+            <a href="#" class="btn btn-download">download</a>
+            <a href="#" class="btn btn-primary">features</a>
+
           </div>
+
+
           <div class="col-lg-6">
 
           </div>
         </div>
       </div>
-    </section>
-
-
-    <section class="feature">
-      <div class="title">
-        <h3 class="title__heading">
-          features
-        </h3>
-
-        <p class="title__desc">
-          only necessary
-        </p>
-      </div>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="box-icon">
-              <div class="box-icon__symbol">
-                <i class="fa fa-500px" aria-hidden="true"></i>
-              </div>
-
-              <div class = "box-icon__content">
-                <h3 class="box-icon__title">
-                    Usability
-                </h3>
-
-                <p class="box-icon__desc">
-                    Sometimes the simplest things are the hardest to find. So we created a new line for everyday life.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="box-icon">
-              <div class="box-icon__symbol">
-                <i class="fa fa-500px" aria-hidden="true"></i>
-              </div>
-              <div class="box-icon__content">
-                <h3 class="box-icon__title">
-                  Usability
-                </h3>
-
-                <p class="box-icon__desc">
-                  Sometimes the simplest things are the hardest to find. So we created a new line for everyday life.
-                </p>
-            </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-xs-12">
-            <div class="box-icon">
-              <div class="box-icon__symbol">
-                <i class="fa fa-500px" aria-hidden="true"></i>
-              </div>
-
-              <div class="box-icon__content">
-                <h3 class="box-icon__title">
-                  Usability
-                </h3>
-
-                <p class="box-icon__desc">
-                  Sometimes the simplest things are the hardest to find. So we created a new line for everyday life.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
+  </section>
 
 
 
-    <section class="widget">
-      <div class="title">
-        <h3 class="title__heading">
-          simple widget
-        </h3>
+  <section class="feature">
+    <div class="title">
+      <h3 class="title__heading">
+        features
+      </h3>
 
-        <p class="title__desc">
-          drag and drop
-        </p>
-      </div>
-    </section>
+      <p class="title__desc">
+        only necessary
+      </p>
+    </div>
 
-
-
-    <section class="screenshot">
-      <div class="title">
-        <h3 class="title__heading">
-            screenshots
-          </h3>
-
-          <p class="title__desc">
-            The brightest image
-          </p>
-      </div>
-
-
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="sreenshot__img"><img src="./images/screen/screen_cloudy.jpg" alt="screen cloudy">
-            </div>
-          </div>
-
-
-          <div class="col-sm-6">
-            <div class="box-icon box-icon--style02">
-              <div class="box-icon__symbol">
-                <img src="./images/icon/cloudy-icon.png" alt="cloudy">
-              </div>
-
-              <div class="box-icon__content">
-                <h3 class="box-icon__title">
-                  when the clounds
-                </h3>
-
-                <p class="box-icon__desc">
-                  Variable information on the air humidity, the feeling of the weather, and the ability to share this with your friends
-                </p>
-
-                <div class="box-icon__img">
-                  <img src="./images/icon/icon-small.png" alt="small info">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="box-icon box-icon--style02">
-              <div class="box-icon__symbol">
-                <img src="./images/icon/sun-icon.png" alt="sun" >
-              </div>
-
-              <div class="box-icon__content">
-                <h3 class="box-icon__title">
-                  When the sun
-                </h3>
-
-                <p class="box-icon__desc">
-                  Sometimes the simplest things are the hardest to find. So we created a new line for everyday life.
-                </p>
-
-                <div class="box-icon__img">
-                  <img src="./images/icon/icon-small.png" alt="small info">
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-sm-6">
-              <div class="sreenshot__img"><img src="./images/screen/screen_sunny.jpg" alt="screen sunny">
-              </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-6">
-              <div class="sreenshot__img"><img src="./images/screen/screen_rainy.jpg" alt="screen sunny">
-              </div>
-          </div>
-
-          <div class="col-sm-6">
-            <div class="box-icon box-icon--style02">
-                <div class="box-icon__symbol">
-                  <img src="./images/icon/rain-icon.png" alt="rain" >
-                </div>
-
-                <div class="box-icon__content">
-                  <h3 class="box-icon__title">
-                    When the rain
-                  </h3>
-
-                  <p class="box-icon__desc">
-                    Sometimes the simplest things are the hardest to find. So we created a new line for everyday life.
-                  </p>
-
-                  <div class="box-icon__img">
-                    <img src="./images/icon/icon-small.png" alt="small info">
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-
-    <section class="testimonial">
-      <div class="title">
-        <h3 class="title__heading">
-          what people saying
-        </h3>
-
-        <p class="title__desc">
-          reviews
-        </p>
-      </div>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="box-icon">
-              <div class="box-icon__user">
-                <img src="./images/reviews/face-01.jpg" alt="user review">
-              </div>
-
-              <div class="box-icon__content">
-                <p class="box-icon__desc">
-                  What art offers is space - a certain breathing room for the spirit.
-                </p>
-
-                <div class="box-icon__name">
-                  john updike
-                </div>
-              </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-xs-12">
+          <div class="box-icon">
+            <div class="box-icon__symbol">
+              <i class="fa fa-500px" aria-hidden="true"></i>
             </div>
 
-            <div class="box-icon">
-              <div class="box-icon__user">
-                <img src="./images/reviews/face-01.jpg" alt="user review">
-              </div>
-
-              <div class="box-icon__content">
-                <p class="box-icon__desc">
-                  What art offers is space - a certain breathing room for the spirit.
-                </p>
-
-                <div class="box-icon__name">
-                  john updike
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-sm-6">
-            <div class="box-icon">
-              <div class="box-icon__user">
-                <img src="./images/reviews/face-01.jpg" alt="user review">
-              </div>
-
-              <div class="box-icon__content">
-                <p class="box-icon__desc">
-                  What art offers is space - a certain breathing room for the spirit.
-                </p>
-
-                <div class="box-icon__name">
-                  john updike
-                </div>
-              </div>
-            </div>
-
-            <div class="box-icon">
-              <div class="box-icon__user">
-                <img src="./images/reviews/face-01.jpg" alt="user review">
-              </div>
-
-              <div class="box-icon__content">
-                <p class="box-icon__desc">
-                  What art offers is space - a certain breathing room for the spirit.
-                </p>
-
-                <div class="box-icon__name">
-                  john updike
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-
-    <section class="download">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="main-content">
-              <h3 class="main-content__title">
-                how to download the app
+            <div class="box-icon__content">
+              <h3 class="box-icon__title">
+                Usability
               </h3>
 
-              <p class="main-content__desc">
-                Just download the app from the store.
-                Simple, nice and user-friendly application of theweather. Only relevant and useful information.
+              <p class="box-icon__desc">
+                Sometimes the simplest things are the hardest to find. So we created a new line for everyday life.
               </p>
             </div>
-            <div class="main__link">
-              <a href="#"><img src="./images/download/google.jpg" alt="download from google"></a>
-              <a href="#"><img src="./images/download/appstore.jpg" alt="download from apple"></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-xs-12">
+          <div class="box-icon">
+            <div class="box-icon__symbol">
+              <i class="fa fa-500px" aria-hidden="true"></i>
+            </div>
+            <div class="box-icon__content">
+              <h3 class="box-icon__title">
+                Usability
+              </h3>
+
+              <p class="box-icon__desc">
+                Sometimes the simplest things are the hardest to find. So we created a new line for everyday life.
+              </p>
             </div>
           </div>
+        </div>
 
+        <div class="col-lg-4 col-xs-12">
+          <div class="box-icon">
+            <div class="box-icon__symbol">
+              <i class="fa fa-500px" aria-hidden="true"></i>
+            </div>
 
-          <div class="col-sm-6">
-            <div class="download__phone">
+            <div class="box-icon__content">
+              <h3 class="box-icon__title">
+                Usability
+              </h3>
+
+              <p class="box-icon__desc">
+                Sometimes the simplest things are the hardest to find. So we created a new line for everyday life.
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
+    </div>
+  </section>
 
-    <!-- build:js scripts/vendor.js -->
-    <!-- bower:js -->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/modernizr/modernizr.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
 
-    <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
-    <!-- endbuild -->
-  </body>
+
+  <section class="widget">
+    <div class="title">
+      <h3 class="title__heading">
+        simple widget
+      </h3>
+
+      <p class="title__desc">
+        drag and drop
+      </p>
+    </div>
+  </section>
+
+
+
+  <section class="screenshot">
+    <div class="title">
+      <h3 class="title__heading">
+        screenshots
+      </h3>
+
+      <p class="title__desc">
+        The brightest image
+      </p>
+    </div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="sreenshot__img">
+            <img src="./images/screen/screen_cloudy.jpg" alt="screen cloudy">
+          </div>
+        </div>
+
+
+        <div class="col-sm-6">
+          <div class="box-icon box-icon--style02">
+            <div class="box-icon__symbol">
+              <img src="./images/icon/cloudy-icon.png" alt="cloudy">
+            </div>
+
+            <div class="box-icon__content">
+              <h3 class="box-icon__title">
+                when the clounds
+              </h3>
+
+              <p class="box-icon__desc">
+                Variable information on the air humidity, the feeling of the weather, and the ability to share this with your friends
+              </p>
+
+              <div class="box-icon__img">
+                <img src="./images/icon/icon-small.png" alt="small info">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="box-icon box-icon--style02">
+            <div class="box-icon__symbol">
+              <img src="./images/icon/sun-icon.png" alt="sun">
+            </div>
+
+            <div class="box-icon__content">
+              <h3 class="box-icon__title">
+                When the sun
+              </h3>
+
+              <p class="box-icon__desc">
+                Sometimes the simplest things are the hardest to find. So we created a new line for everyday life.
+              </p>
+
+              <div class="box-icon__img">
+                <img src="./images/icon/icon-small.png" alt="small info">
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-6">
+          <div class="sreenshot__img">
+            <img src="./images/screen/screen_sunny.jpg" alt="screen sunny">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="sreenshot__img">
+            <img src="./images/screen/screen_rainy.jpg" alt="screen sunny">
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="box-icon box-icon--style02">
+            <div class="box-icon__symbol">
+              <img src="./images/icon/rain-icon.png" alt="rain">
+            </div>
+
+            <div class="box-icon__content">
+              <h3 class="box-icon__title">
+                When the rain
+              </h3>
+
+              <p class="box-icon__desc">
+                Sometimes the simplest things are the hardest to find. So we created a new line for everyday life.
+              </p>
+
+              <div class="box-icon__img">
+                <img src="./images/icon/icon-small.png" alt="small info">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="testimonial">
+    <div class="title">
+      <h3 class="title__heading">
+        what people saying
+      </h3>
+
+      <p class="title__desc">
+        reviews
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="box-icon">
+            <div class="box-icon__user">
+              <img src="./images/reviews/face-01.jpg" alt="user review">
+            </div>
+
+            <div class="box-icon__content">
+              <p class="box-icon__desc">
+                What art offers is space - a certain breathing room for the spirit.
+              </p>
+
+              <div class="box-icon__name">
+                john updike
+              </div>
+            </div>
+          </div>
+
+          <div class="box-icon">
+            <div class="box-icon__user">
+              <img src="./images/reviews/face-01.jpg" alt="user review">
+            </div>
+
+            <div class="box-icon__content">
+              <p class="box-icon__desc">
+                What art offers is space - a certain breathing room for the spirit.
+              </p>
+
+              <div class="box-icon__name">
+                john updike
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-6">
+          <div class="box-icon">
+            <div class="box-icon__user">
+              <img src="./images/reviews/face-01.jpg" alt="user review">
+            </div>
+
+            <div class="box-icon__content">
+              <p class="box-icon__desc">
+                What art offers is space - a certain breathing room for the spirit.
+              </p>
+
+              <div class="box-icon__name">
+                john updike
+              </div>
+            </div>
+          </div>
+
+          <div class="box-icon">
+            <div class="box-icon__user">
+              <img src="./images/reviews/face-01.jpg" alt="user review">
+            </div>
+
+            <div class="box-icon__content">
+              <p class="box-icon__desc">
+                What art offers is space - a certain breathing room for the spirit.
+              </p>
+
+              <div class="box-icon__name">
+                john updike
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="download">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="main-content">
+            <h3 class="main-content__title">
+              how to download the app
+            </h3>
+
+            <p class="main-content__desc">
+              Just download the app from the store. Simple, nice and user-friendly application of theweather. Only relevant and useful
+              information.
+            </p>
+          </div>
+          <div class="main__link">
+            <a href="#">
+              <img src="./images/download/google.jpg" alt="download from google">
+            </a>
+            <a href="#">
+              <img src="./images/download/appstore.jpg" alt="download from apple">
+            </a>
+          </div>
+        </div>
+
+
+        <div class="col-sm-6">
+          <div class="download__phone">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+    (function (b, o, i, l, e, r) {
+      b.GoogleAnalyticsObject = l;
+      b[l] || (b[l] =
+        function () {
+          (b[l].q = b[l].q || []).push(arguments)
+        });
+      b[l].l = +new Date;
+      e = o.createElement(i);
+      r = o.getElementsByTagName(i)[0];
+      e.src = 'https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+
+  </script>
+
+  <!-- build:js scripts/vendor.js -->
+  <!-- bower:js -->
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="/bower_components/slick-carousel/slick/slick.min.js" f></script>
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js scripts/main.js -->
+  <script src="scripts/main.js"></script>
+  <!-- endbuild -->
+</body>
+
 </html>

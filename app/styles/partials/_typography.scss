@@ -1,5 +1,8 @@
+$font-family-base: prepend($font-family-sans-serif,'ubuntu');
+$font-size-base:    1.125rem;
+
 body {
-  font-family: sans-serif;
+  font-family: $font-family-base;
   font-size: $font-size-base;
 
   p {

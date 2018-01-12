@@ -1,5 +1,7 @@
 // bower:scss
 // endbower
+@import "abstract/function";
+
 @import "modules/colors";
 @import "modules/utility";
 @import "modules/variables";
@@ -17,14 +19,17 @@
   padding: 0.2em 0;
 }
 
-body {
-  background: #fafafa;
-  font-family: 'ubuntu','Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #333;
-}
 
 .container {
   @include media-breakpoint-up(xl) {
     max-width: 1170px;
   }
 }
+
+// .btn {
+//   @include media-breakpoint-up(xl) {
+//     text-align: center !important;
+//     display: flex;
+//     align-items: center;
+//   }
+// }

@@ -1,4 +1,13 @@
 @import "vendors/bootstrap/bootstrap";
+@import "modules/variables";
+
+$main-menu-bg: $gray-100;
+
+
+
+.hero {
+  padding: 3rem 0;
+}
 
 .title {
   text-align: center;
@@ -18,13 +27,18 @@
 .main-content {
   .main-content__title {
     color: $white;
-    font-size: 3.75rem;
+    font-size: 2em;
     font-weight: bold;
     margin: 0;
+
+    @include media-breakpoint-up (md){
+      font-size: 3.75rem;
+    }
   }
 
   .main-content__desc {
-    color: $white;
+    color:  color-yiq($bg-blue);
+
   }
 }
 
@@ -35,7 +49,7 @@
 }
 
 .box-icon {
-  display: flex;
+  display: block;
 
   .box-icon__symbol {
     margin-right: 20px;
@@ -45,11 +59,15 @@
   .box-icon__title {
     margin-bottom: 10px;
     font-weight: bold;
-  }
+}
 
   .box-icon__desc {
     color: #aeaeae;
     font-weight: normal;
+  }
+
+  @include media-breakpoint-up(sm) {
+    display: flex;
   }
 }
 
@@ -57,4 +75,10 @@
 
 .box-icon--style02 {
   display: block;
+}
+
+
+.header {
+  background-color: $bg-blue;
+
 }
