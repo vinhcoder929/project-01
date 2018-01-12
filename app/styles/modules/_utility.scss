@@ -45,13 +45,7 @@ $bg-color: $bg-blue;
     background-color: initial;
     color: color-yiq($bg-color);
 
-    .main-menu__logo {
-      float: left;
-    }
 
-    .main-menu__toggle {
-      visibility: hidden;
-    }
   }
 }
 
@@ -158,9 +152,6 @@ $bg-color: $bg-blue;
 
 
 @include media-breakpoint-up (sm){
-/*   .main-menu {
-    background-color: initial !important;
-  } */
   .main-menu__nav {
     display: flex ;
     justify-content: center;
@@ -173,6 +164,14 @@ $bg-color: $bg-blue;
     li {
       display: inline-block !important;
     }
+  }
+
+  .main-menu__logo {
+    float: left;
+  }
+
+  .main-menu__toggle {
+    visibility: hidden;
   }
 
 }
