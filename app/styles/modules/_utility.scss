@@ -2,7 +2,81 @@
 @import "modules/variables";
 
 $main-menu-bg: $gray-100;
+$menu-padding: 10px 15px;
+$bg-color: $bg-blue;
 
+/* .toggle {
+  display: block;
+
+  @include media-breakpoint-up(sm){
+    display: block !important;
+  }
+}
+ */
+.main-menu {
+  background-color: $main-menu-bg;
+  color: color-yiq($main-menu-bg);
+  margin-right: -15px;
+  margin-left: -15px;
+
+  > a {
+    //  logo and toggle link
+    padding: $menu-padding;
+    display: inline-block;
+  }
+
+  a {
+    color: inherit;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .main-menu__logo {
+    font-weight: bold;
+  }
+
+  .main-menu__toggle {
+    float: right;
+  }
+
+  @include media-breakpoint-up(sm){
+    background-color: initial;
+    color: color-yiq($bg-color);
+
+    .main-menu__logo {
+      float: left;
+    }
+
+    .main-menu__toggle {
+      visibility: hidden;
+    }
+  }
+}
+
+
+.main-menu__nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    display: none;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    display: block;
+    padding: $menu-padding;
+    text-transform: capitalize;
+
+    &:hover {
+      background-color: lighten($main-menu-bg,10%);
+    }
+  }
+}
 
 
 .hero {
@@ -38,7 +112,6 @@ $main-menu-bg: $gray-100;
 
   .main-content__desc {
     color:  color-yiq($bg-blue);
-
   }
 }
 
@@ -79,6 +152,27 @@ $main-menu-bg: $gray-100;
 
 
 .header {
-  background-color: $bg-blue;
+  background-color: $bg-color;
+
+}
+
+
+@include media-breakpoint-up (sm){
+/*   .main-menu {
+    background-color: initial !important;
+  } */
+  .main-menu__nav {
+    display: flex ;
+    justify-content: center;
+
+    ul {
+      display: block !important;
+      //overide Jquery display: none
+    }
+
+    li {
+      display: inline-block !important;
+    }
+  }
 
 }
