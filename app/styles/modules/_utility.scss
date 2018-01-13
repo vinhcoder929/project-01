@@ -44,8 +44,6 @@ $bg-color: $bg-blue;
   @include media-breakpoint-up(sm){
     background-color: initial;
     color: color-yiq($bg-color);
-
-
   }
 }
 
@@ -173,5 +171,4 @@ $bg-color: $bg-blue;
   .main-menu__toggle {
     visibility: hidden;
   }
-
 }
