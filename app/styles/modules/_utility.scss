@@ -136,18 +136,13 @@ $bg-color: $bg-blue;
   }
 }
 
-
-
 .box-icon--style02 {
   display: block;
 }
 
-
 .header {
   background-color: $bg-color;
-
 }
-
 
 @include media-breakpoint-up (sm){
   .main-menu__nav {
