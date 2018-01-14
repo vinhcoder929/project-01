@@ -140,7 +140,7 @@ $bg-color: $bg-blue;
 }
 
 .header {
-  background-color: $bg-color;
+  // background-color: $bg-color;
 }
 
 @include media-breakpoint-up (sm){
